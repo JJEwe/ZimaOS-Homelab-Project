@@ -103,7 +103,7 @@ Accessed the ZimaOS web interface for the first time to explore the system dashb
 | Technology | Purpose |
 |---|---|
 | ZimaOS | Server operating system and management |
-| Docker | Containerization and application deployment |
+| Portainer (Docker) | Containerization and application deployment |
 | NAS | Centralized network storage |
 | Networking | Router configuration, port forwarding and connectivity |
 | Self-hosted applications | Hosting and managing personal services |
@@ -140,6 +140,16 @@ Media streaming application.
 - Personal media streaming environment.
 - Exploration of media service configuration.
 - Learning application deployment and service accessibility.
+
+### 5. Portainer
+- **Purpose:** Docker container management and monitoring.
+- **Usage:** Provides a web-based interface to manage containers, images, volumes and networks.
+- **Learning Focus:** Container lifecycle management, Docker administration and service deployment.
+
+### 6. AdGuard Home
+- Configured DNS-based ad and tracker blocking.
+- Explored network-wide DNS filtering for connected devices.
+- Learned about DNS resolution, upstream DNS servers and network-level filtering.
 
 ## 🌐 Networking & Connectivity
 
