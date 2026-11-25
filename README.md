@@ -1,5 +1,19 @@
 # ZimaOS-Homelab-Project
-An attempt to bring a spare motherboard into use for a home server lab
+Turning unused PC hardware into a self-hosted homelab for learning infrastructure, networking, containerization and DevOps practices.
+
+## 📑 Table of Contents
+
+- [Project Overview](#-personal-homelab--self-hosted-infrastructure)
+- [Project Objectives](#-project-objectives)
+- [Hardware Specifications](#-hardware-specifications)
+- [Build Process](#-homelab-build-process)
+- [ZimaOS Installation & Initial Setup](#-zimaos-installation--initial-setup)
+- [Infrastructure & Technology Stack](#-infrastructure--technology-stack)
+- [Hosted Services](#-hosted-services)
+- [Networking & Connectivity](#-networking--connectivity)
+- [Containerization](#-containerization--service-management)
+- [Skills & Learning Outcomes](#-skills--learning-outcomes)
+- [Future Improvements](#-future-improvements)
 
 
 # 🖥️ Personal Homelab & Self-Hosted Infrastructure
@@ -28,8 +42,61 @@ This project serves as a hands-on environment for understanding server administr
 | GPU | NVIDIA GeForce GT 730 |
 | Operating System | ZimaOS |
 | Primary Storage | 500GB SSD |
-| Additional Storage | HDD storage for NAS |
+| Additional Storage | 4TB HDD storage for NAS |
 | Power Supply | 80 PLUS Gold (exact model unspecified) |
+
+## 🔨 Homelab Build Process
+
+1. Acquiring the PC Case
+
+Purchased a second-hand PC case through Carousell, featuring 3.5-inch and 5.25-inch drive bays to accommodate multiple storage drives for the NAS setup.
+
+<p align="center">
+  <img src="assets/2nd Hand PC Case.jpeg" width="700">
+</p>
+
+2. Hardware Assembly
+
+Assembled the system using a combination of spare components (Motherboard, HDD), unused parts from friends (GPU, PSU & CPU), and newly purchased components sourced online (RAM, SSD).
+
+<p align="center">
+  <img src="assets/PC-Installation.jpeg" width="700">
+</p>
+
+3. First Startup
+
+Successfully completed the initial hardware assembly and powered on the system for the first time, marking the beginning of the homelab setup.
+
+<p align="center">
+  <img src="assets/First Startup.jpeg" width="700">
+</p>
+
+> **Disclaimer:** The motherboard BIOS must be updated to a version that supports 3rd Gen AMD Ryzen processors before installing the Ryzen 5 3600. The specific MSI motherboard used in this build may not ship with a Ryzen 3000-ready BIOS.
+
+> *Lesson learned: Always check BIOS compatibility before assuming the PC will POST. Ask me how I know.*
+
+## 🐧 ZimaOS Installation & Initial Setup
+
+After completing the hardware assembly, the next step was installing ZimaOS to transform the repurposed PC into a home server.
+
+### 1. Initial ZimaOS Setup
+
+Installed ZimaOS on the primary 500GB SSD and completed the initial system configuration.
+
+
+### 2. First Login & Dashboard
+
+Accessed the ZimaOS web interface for the first time to explore the system dashboard and available server management features.
+
+<p align="center">
+  <img src="assets/ZimaOS-Setup.png" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/ZimaOS-Dashboard.png" width="700">
+</p>
+
+
 
 ## ⚙️ Infrastructure & Technology Stack
 
