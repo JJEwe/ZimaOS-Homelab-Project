@@ -13,7 +13,7 @@ Turning unused PC hardware into a self-hosted homelab for learning infrastructur
 - [Networking & Connectivity](#-networking--connectivity)
 - [Containerization](#-containerization--service-management)
 - [Skills & Learning Outcomes](#-skills--learning-outcomes)
-- [Future Improvements](#-future-improvements)
+- [Future Projects Involving the Homelab](#-future-projects-involving-the-homelab)
 
 
 # 🖥️ Personal Homelab & Self-Hosted Infrastructure
@@ -117,7 +117,41 @@ Self-hosted photo and video management platform.
 - Centralized media storage.
 - Learning application deployment and persistent storage management.
 
-### 2. Arma 3 Dedicated Server
+### 2. NAS (Network Attached Storage)
+Centralized storage environment for personal files and data.
+
+- Network-accessible storage.
+- Centralized file management.
+- HDD-based storage.
+- Separation of operating system and data storage.
+
+### 3. Stremio
+Media streaming application.
+
+- Personal media streaming environment.
+- Exploration of media service configuration.
+- Learning application deployment and service accessibility.
+
+### 4. AdGuard Home
+<p align="center">
+  <img src="assets/Adguard-Dashboard.png" width="700">
+</p>
+
+- Configured DNS-based ad and tracker blocking.
+- Explored network-wide DNS filtering for connected devices.
+- Learned about DNS resolution, upstream DNS servers and network-level filtering.
+
+
+### 5. Portainer
+<p align="center">
+  <img src="assets/Portainer-Dashboard.png" width="700">
+</p>
+
+- **Purpose:** Docker container management and monitoring.
+- **Usage:** Provides a web-based interface to manage containers, images, volumes and networks.
+- **Learning Focus:** Container lifecycle management, Docker administration and service deployment.
+
+### 6. Arma 3 Dedicated Server (With Portainer)
 A self-hosted multiplayer game server.
 
 - Dedicated game server deployment.
@@ -126,30 +160,6 @@ A self-hosted multiplayer game server.
 - Mod and mission management.
 - Network port configuration for multiplayer connectivity.
 
-### 3. NAS (Network Attached Storage)
-Centralized storage environment for personal files and data.
-
-- Network-accessible storage.
-- Centralized file management.
-- HDD-based storage.
-- Separation of operating system and data storage.
-
-### 4. Stremio
-Media streaming application.
-
-- Personal media streaming environment.
-- Exploration of media service configuration.
-- Learning application deployment and service accessibility.
-
-### 5. Portainer
-- **Purpose:** Docker container management and monitoring.
-- **Usage:** Provides a web-based interface to manage containers, images, volumes and networks.
-- **Learning Focus:** Container lifecycle management, Docker administration and service deployment.
-
-### 6. AdGuard Home
-- Configured DNS-based ad and tracker blocking.
-- Explored network-wide DNS filtering for connected devices.
-- Learned about DNS resolution, upstream DNS servers and network-level filtering.
 
 ## 🌐 Networking & Connectivity
 
@@ -204,19 +214,27 @@ This homelab is an ongoing learning project focused on developing practical infr
 - Managing persistent application data.
 - Running multiple services on shared infrastructure.
 
-## 🔧 Future Improvements
+## 🔧 Future Projects Involving the Homelab
 
-The homelab is continuously evolving. Planned improvements include:
+As the homelab continues to develop, I plan to use it as a foundation for experimenting with additional infrastructure, networking and DevOps projects.
 
-- [ ] Implement VLANs for network segmentation.
-- [ ] Set up centralized monitoring and resource tracking.
-- [ ] Implement automated backups.
-- [ ] Explore reverse proxy configuration.
-- [ ] Implement secure remote access using VPN.
-- [ ] Explore infrastructure automation.
-- [ ] Experiment with CI/CD pipelines.
-- [ ] Improve container orchestration and management.
-- [ ] Implement centralized logging.
+### Ongoing Projects
+
+- **Locally Deployed CRUD System** – Develop and deploy a full-stack application on the homelab, implementing Create, Read, Update and Delete (CRUD) operations with a self-hosted backend and database.
+> *Challenges Encountered: My ISP uses Carrier-Grade NAT (CGNAT), preventing direct inbound connections through conventional port forwarding. This creates a challenge when trying to expose locally hosted services to the public internet.*
+> *Potential Solutions: Explore Cloudflare Tunnel, Tailscale, or a VPS-based reverse tunnel to enable secure remote access without requiring a public IPv4 address.*
+
+### 🔧 Future Improvements
+
+- [ ] **Network Segmentation with VLANs** – Separate IoT devices, servers and personal devices into isolated network segments.
+- [ ] **Centralised Monitoring** – Deploy monitoring tools such as Prometheus and Grafana to track server performance, resource usage and service availability.
+- [ ] **Automated Backup System** – Implement scheduled backups for important files, Docker volumes and application configurations.
+- [ ] **Reverse Proxy & HTTPS** – Set up a reverse proxy to securely expose selected self-hosted services using domain names and HTTPS.
+- [ ] **Remote Access VPN** – Configure WireGuard or Tailscale for secure remote access to the homelab.
+- [ ] **Infrastructure Automation** – Explore Ansible and scripting to automate server configuration and service deployment.
+- [ ] **CI/CD Pipeline** – Experiment with automated build and deployment workflows for applications hosted on the homelab.
+- [ ] **Self-Hosted Git Service** – Deploy a Git service such as Gitea for source code management and project collaboration.
+- [ ] **Kubernetes & Container Orchestration** – Explore container orchestration and understand how applications can be deployed, scaled and managed across multiple nodes.
 
 ## 📌 Project Philosophy
 
